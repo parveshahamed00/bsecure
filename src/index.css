@@ -190,7 +190,7 @@ nav .links:hover {
 
   /* background-color: #0574e4; */
   /* background-color: #ffffff; */
-  background-image: -webkit-linear-gradient(70deg, #0574e4 50%, #c61e3f 50%);
+  background-image: -webkit-linear-gradient(70deg, #ffffff 50%, #c61e3f 50%);
 }
 #Achievements i {
   font-size: 50px;
@@ -233,7 +233,7 @@ nav .links:hover {
     font-weight: 550;
     color: #e02248;
 }
-#loan-soln button{
+#loan-soln button, #reviews button{
     padding: 10px 17px;
     border-radius: 50px;
     border: 0;
@@ -247,7 +247,7 @@ nav .links:hover {
     color: #ed1f48;
 
 }
-#loan-soln button:hover{
+#loan-soln button:hover , #reviews  button:hover{
     background-color:#0a6bfc ;
     color: white;
 
@@ -260,13 +260,16 @@ nav .links:hover {
 }
 /*  */
 #process{
-    background-color: rgb(220, 220, 220);
+    background-color: #045eb9;
 }
 #process .display-2{
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     font-weight: 550;
-    color: #e02248;
+    color: #ffffff;
     text-align: center;
+}
+#process h4{
+    color: #ececec;
 }
   
   .main-timeline {
@@ -420,4 +423,11 @@ nav .links:hover {
       font-size: 18px;
     }
   }
-  
+  /* clients */
+
+  #reviews h2{
+    font-weight: 550;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #036ad0;
+  }
+ 
