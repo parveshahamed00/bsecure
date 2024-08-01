@@ -3,7 +3,7 @@ import React from "react";
 function Offers() {
   return (
     <section id="offers" className="container py-5">
-      <div className="row gy-5">
+      <div className="row ">
         <div className=" col-12 col-md-6 p-5">
           <div>
             <h2 >Best Loan and Insurance Offers</h2>
