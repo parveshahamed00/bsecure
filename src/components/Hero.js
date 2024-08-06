@@ -134,7 +134,7 @@ function Hero() {
               />
             </Form.Group>
             <Form.Group>
-              <Form.Label>Products wish to Enquire</Form.Label>
+              <Form.Label>Products Enquiry</Form.Label>
               <select class="form-select" aria-label="Default select example">
                 <option selected>select product</option>
                 <option value="1">Personal Loan</option>
@@ -149,7 +149,7 @@ function Hero() {
                 <option value="11">Life Insurance</option>
                 <option value="12">Health Insurance</option>
                 <option value="13">Property Insurance</option>
-                <option value="14"> Others</option>
+                <option value="14">Others</option>
               </select>
             </Form.Group>
             <br />
@@ -162,7 +162,10 @@ function Hero() {
             </Form.Group>
             <Form.Group>
               <Form.Label>Occupation</Form.Label>
-              <select className="form-select" aria-label="Default select example">
+              <select
+                className="form-select"
+                aria-label="Default select example"
+              >
                 <option selected>select occupation</option>
                 <option value="1">Salaried</option>
                 <option value="2">Self Employed</option>
@@ -206,9 +209,7 @@ function Hero() {
               </div>
             </Form.Group>
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-              <Form.Label className="">
-                Loan Amount
-              </Form.Label>
+              <Form.Label className="">Loan Amount</Form.Label>
               <Form.Control type="number" placeholder="eg. 100000" />
             </Form.Group>
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
@@ -236,6 +237,18 @@ function Hero() {
                   />
                   <label className="form-check-label" for="inlineRadio2">
                     No
+                  </label>
+                </div>
+                <div className="form-check form-check-inline">
+                  <input
+                    className="form-check-input"
+                    type="radio"
+                    name="inlineRadioOptions"
+                    id="inlineRadio2"
+                    value="option2"
+                  />
+                  <label className="form-check-label" for="inlineRadio2">
+                    Maybe
                   </label>
                 </div>
               </div>
