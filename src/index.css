@@ -492,3 +492,67 @@ nav .links:hover {
   color: white ;
 
 }
+/* emi calculator */
+.emi-calculator {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.emi-calculator h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.emi-calculator form div {
+  margin-bottom: 15px;
+}
+
+.emi-calculator label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.emi-calculator input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.emi-calculator input[type="radio"] {
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+.emi-calculator button {
+  width: 48%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 4%;
+}
+
+.emi-calculator button[type="button"] {
+  background-color: #dc3545;
+}
+
+.emi-calculator button:hover {
+  background-color: #0056b3;
+}
+
+.emi-calculator button[type="button"]:hover {
+  background-color: #c82333;
+}
+
+.emi-calculator h2 {
+  text-align: center;
+  margin-top: 20px;
+}

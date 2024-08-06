@@ -1,4 +1,5 @@
 import React from 'react'
+import EmiCalculator from './EmiCalculator'
 
 export default function Navbar() {
   return (
@@ -37,7 +38,7 @@ export default function Navbar() {
           </li>
           <li className="nav-item links">
             <a className="nav-link" href="#">
-              Let's Talk
+             <EmiCalculator/>
             </a>
           </li>
           <li className="nav-item">

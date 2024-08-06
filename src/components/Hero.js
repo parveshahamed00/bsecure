@@ -113,7 +113,7 @@ function Hero() {
           <Modal.Title>Enquiry Form</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <Form method="post" action="/">
+          <Form>
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
               <Form.Label>Customer Name</Form.Label>
               <Form.Control type="text" placeholder="name" />
@@ -162,10 +162,7 @@ function Hero() {
             </Form.Group>
             <Form.Group>
               <Form.Label>Occupation</Form.Label>
-              <select
-                className="form-select"
-                aria-label="Default select example"
-              >
+              <select className="form-select" aria-label="Default select example">
                 <option selected>select occupation</option>
                 <option value="1">Salaried</option>
                 <option value="2">Self Employed</option>
@@ -209,7 +206,9 @@ function Hero() {
               </div>
             </Form.Group>
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-              <Form.Label className="">Loan Amount</Form.Label>
+              <Form.Label className="">
+                Loan Amount
+              </Form.Label>
               <Form.Control type="number" placeholder="eg. 100000" />
             </Form.Group>
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
