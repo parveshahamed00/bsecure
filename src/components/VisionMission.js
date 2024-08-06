@@ -63,8 +63,15 @@ function VisionMission() {
                 data-bs-parent="#accordionFlushExample"
               >
                 <div class="accordion-body">
-                  Explore our housing loan solutions tailored to meet your
-                  specific requirements
+                  At Bsecure, our mission is to confidently disburse 600 crores
+                  annually in personal loans, solidifying our position as the
+                  foremost advisor in the personal loan sector. We strive to be
+                  the number one choice for personal loans among corporate and
+                  government staff, delivering swift and superior financial
+                  solutions. With a relentless focus on excellence and
+                  market-leading deals, we empower our clients to achieve their
+                  financial aspirations with unwavering confidence and trust in
+                  our expertise.
                 </div>
               </div>
             </div>
@@ -103,7 +110,7 @@ function VisionMission() {
                   aria-expanded="false"
                   aria-controls="flush-collapseFour"
                 >
-                  <i className="bi bi-bar-chart-fill"></i> PROJECT LOAN
+                  <i className="bi bi-bar-chart-fill"></i> LOAN AGAINST PROPERTY
                 </button>
               </h2>
               <div
@@ -112,8 +119,16 @@ function VisionMission() {
                 data-bs-parent="#accordionFlushExample"
               >
                 <div class="accordion-body">
-                  Explore our housing loan solutions tailored to meet your
-                  specific requirements
+                  At Bsecure Advisory Services, our mission is to provide a
+                  lifeline to individuals and businesses struggling with
+                  multiple high-interest loans through our loan against property
+                  solutions. We aim to help clients consolidate their debts into
+                  one manageable loan with lower interest rates, longer tenors,
+                  and smaller EMIs. Our goal is to save them from potential
+                  financial distress and CIBIL score issues, offering a clear
+                  path out of debt. By reducing the EMI burden and lowering
+                  interest rates, we strive to support and assist 3,000 clients
+                  annually in achieving financial stability and peace of mind.
                 </div>
               </div>
             </div>
