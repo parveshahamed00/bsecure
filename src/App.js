@@ -11,19 +11,22 @@ import Partners from "./components/Partners";
 import Process from "./components/Process";
 import Services from "./components/Services";
 import VisionMission from "./components/VisionMission";
+import WhyWe from "./components/WhyWe";
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <Navbar></Navbar>
         <Hero></Hero>
-        <Offers></Offers>
-        <About></About>
         <VisionMission></VisionMission>
+        <About></About>
+        <Offers></Offers>
         <Services></Services>
-        <Achievements></Achievements>
         <LoanSolution></LoanSolution>
+        <WhyWe/>
         <Process></Process>
+        <br/>
+        <Achievements></Achievements>
         <ClientReviews></ClientReviews>
         <Partners></Partners>
         <ContactForm></ContactForm>

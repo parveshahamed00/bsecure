@@ -7,13 +7,13 @@ function VisionMission() {
         <div className="col col-12 col-md-6">
           <h1 className="text-center mb-4">Our Vision</h1>
           <p className="lh-lg  fs-5">
-            " At bsecure, we envision a future where every individual and business
+            At bsecure, we envision a future where every individual and business
             can confidently achieve their financial dreams with our
             unparalleled, premium advisory services. We strive to be the beacon
             of trust and the foremost choice in credit and investment guidance,
             relentlessly reaching more people and setting the standard for
             excellence in advisory services. Our passion is to ignite financial
-            empowerment, driving success and prosperity for all. "
+            empowerment, driving success and prosperity for all."
           </p>
           <button className="vm-btn mb-2">Get a Free Consultation</button>
         </div>
@@ -30,7 +30,7 @@ function VisionMission() {
                   aria-expanded="false"
                   aria-controls="flush-collapseOne"
                 >
-                 <i className="bi bi-house-check-fill"></i> HOUSING LOAN 
+                  <i className="bi bi-house-check-fill"></i> HOUSING LOAN
                 </button>
               </h2>
               <div
@@ -39,7 +39,8 @@ function VisionMission() {
                 data-bs-parent="#accordionFlushExample"
               >
                 <div class="accordion-body">
-                Explore our housing loan solutions tailored to meet your specific requirements
+                  Explore our housing loan solutions tailored to meet your
+                  specific requirements
                 </div>
               </div>
             </div>
@@ -53,7 +54,7 @@ function VisionMission() {
                   aria-expanded="false"
                   aria-controls="flush-collapseTwo"
                 >
-                 <i className="bi bi-person-fill-check"></i> PERSONAL LOAN 
+                  <i className="bi bi-person-fill-check"></i> PERSONAL LOAN
                 </button>
               </h2>
               <div
@@ -62,7 +63,8 @@ function VisionMission() {
                 data-bs-parent="#accordionFlushExample"
               >
                 <div class="accordion-body">
-                Explore our housing loan solutions tailored to meet your specific requirements
+                  Explore our housing loan solutions tailored to meet your
+                  specific requirements
                 </div>
               </div>
             </div>
@@ -86,7 +88,8 @@ function VisionMission() {
                 data-bs-parent="#accordionFlushExample"
               >
                 <div class="accordion-body">
-                Explore our housing loan solutions tailored to meet your specific requirements
+                  Explore our housing loan solutions tailored to meet your
+                  specific requirements
                 </div>
               </div>
             </div>
@@ -109,7 +112,8 @@ function VisionMission() {
                 data-bs-parent="#accordionFlushExample"
               >
                 <div class="accordion-body">
-                Explore our housing loan solutions tailored to meet your specific requirements
+                  Explore our housing loan solutions tailored to meet your
+                  specific requirements
                 </div>
               </div>
             </div>

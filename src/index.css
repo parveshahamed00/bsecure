@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
 /* Navbar */
 .navbar {
   padding: 10px 0;
@@ -37,9 +38,9 @@ nav .links:hover {
 }
 /* hero */
 #hero {
-  height: 90vh;
+  height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    url(./../public/images/hero.jpg);
+    url(./../public/images/heros.png);
   background-position: center;
   background-repeat: no-repeat;
   /* background-attachment:scroll; */
@@ -47,15 +48,21 @@ nav .links:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 #hero h1 {
   color: #ffffff;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: 550;
+  font-weight: 50;
+  margin-bottom: 30px;
+  font-family:eczar;
 }
+#hero p{
+  font-style:gentysans;
+} 
 #hero .hero-txt-container {
   /* From https://css.glass */
-  background: rgba(17, 0, 0, 0.5);
+  background: rgba(11,69, 141, 0.653);
   border-radius: 15px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(7.1px);
@@ -63,7 +70,6 @@ nav .links:hover {
   width: 80%;
 }
 /* offers */
-
 #offers h2 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #0a6bfc;
@@ -103,7 +109,6 @@ nav .links:hover {
 }
 #about p {
   line-height: 2;
-
   color: rgba(245, 245, 245, 0.784);
 }
 #about .col-md-7:hover p {
@@ -113,7 +118,7 @@ nav .links:hover {
 #about svg {
   position: absolute;
   bottom: 0;
-  opacity: 0.5;
+  /* opacity: 0.5; */
   z-index: -1;
 }
 /* service */
@@ -187,10 +192,9 @@ nav .links:hover {
 /* Achievememts */
 #Achievements {
   text-align: center;
-
   /* background-color: #0574e4; */
   /* background-color: #ffffff; */
-  background-image: -webkit-linear-gradient(70deg, #ffffff 50%, #c61e3f 50%);
+  background-image: -webkit-linear-gradient(70deg, #ffffff 50%, #045eb9 50%);
 }
 #Achievements i {
   font-size: 50px;
@@ -214,7 +218,7 @@ nav .links:hover {
 #Achievements .col-12 {
   padding: 5% 0;
   /* background-color:#07468D; */
-  background-color: #07468d;
+  background-color: #e02248;
 }
 #Achievements .col-12:hover {
   background-color: #0055aa;
@@ -222,7 +226,10 @@ nav .links:hover {
 @media (max-width: 768px) {
   #Achievements {
     background-image: none;
-    background-color: #006adc;
+    background-color: #ffffff;
+  }
+  #Achievements .achi-txt   {
+ color: #e02248;
   }
 }
 #loan-soln {
@@ -245,6 +252,8 @@ nav .links:hover {
 #loan-soln i{
     font-size: 30px;
     color: #ed1f48;
+    display: flex;
+    justify-content: center;
 
 }
 #loan-soln button:hover , #reviews  button:hover, #vm .vm-btn:hover{
