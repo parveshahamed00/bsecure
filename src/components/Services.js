@@ -40,7 +40,7 @@ function Services() {
           </div>
         </div>
       </div>
-      <div className="container cards">
+      {/* <div className="container cards">
         <div className="row mt-5 gy-4">
           <div className="col-12 col-md-3">
             <i class="bi bi-bar-chart-steps"></i>
@@ -71,7 +71,7 @@ function Services() {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 }

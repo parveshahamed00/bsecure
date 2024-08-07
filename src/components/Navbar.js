@@ -1,5 +1,6 @@
 import React from 'react'
 import EmiCalculator from './EmiCalculator'
+import Application from './Application'
 
 export default function Navbar() {
   return (
@@ -34,6 +35,11 @@ export default function Navbar() {
           <li className="nav-item links">
             <a className="nav-link" href="#">
               Our Services
+            </a>
+          </li>
+          <li className="nav-item links">
+            <a className="nav-link" href="#">
+              <Application/>
             </a>
           </li>
           <li className="nav-item links">

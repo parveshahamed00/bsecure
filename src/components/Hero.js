@@ -102,15 +102,15 @@ function Hero() {
       >
         Get a Free Consultant
       </Button>
-
       <Modal
         show={show}
         onHide={handleClose}
         backdrop="static"
         keyboard={false}
+       
       >
-        <Modal.Header closeButton>
-          <Modal.Title>Enquiry Form</Modal.Title>
+        <Modal.Header closeButton closeVariant="white" data-bs-theme="light" className="enquiry-background ">
+          <Modal.Title >Enquiry Form</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <Form>
@@ -258,9 +258,10 @@ function Hero() {
           <Button variant="secondary" onClick={handleClose}>
             Close
           </Button>
-          <Button variant="primary">Understood</Button>
+          <Button variant="success">Submit</Button>
         </Modal.Footer>
       </Modal>
+      
     </section>
   );
 }

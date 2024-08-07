@@ -3,10 +3,10 @@ import React from "react";
 function VisionMission() {
   return (
     <section id="vm" className="p-5">
-      <div className="row  gy-4 vm-row ">
-        <div className="col col-12 col-md-6">
+      <div className="row  gy-4 vm-row  ">
+        <div className="col col-12 col-md-6 ">
           <h1 className="text-center mb-4">Our Vision</h1>
-          <p className="lh-lg  fs-5">
+          <p className="lh-lg  fs-5 ">
             At bsecure, we envision a future where every individual and business
             can confidently achieve their financial dreams with our
             unparalleled, premium advisory services. We strive to be the beacon
@@ -15,7 +15,6 @@ function VisionMission() {
             excellence in advisory services. Our passion is to ignite financial
             empowerment, driving success and prosperity for all."
           </p>
-          <button className="vm-btn mb-2">Get a Free Consultation</button>
         </div>
         <div className="col col-12 col-md-6">
           <h1 className="text-center mb-4">Our Mission</h1>
@@ -39,8 +38,12 @@ function VisionMission() {
                 data-bs-parent="#accordionFlushExample"
               >
                 <div class="accordion-body">
-                  Explore our housing loan solutions tailored to meet your
-                  specific requirements
+                  At bsecure, our mission is to make homeownership accessible
+                  for people from all walks of life through reliable housing
+                  loans at lower interest rates. With free consultations and a
+                  quick, transparent, and simple loan process, we aim to
+                  facilitate 3,000 housing loans annually, empowering clients to
+                  confidently achieve their dream homes.
                 </div>
               </div>
             </div>
@@ -95,8 +98,13 @@ function VisionMission() {
                 data-bs-parent="#accordionFlushExample"
               >
                 <div class="accordion-body">
-                  Explore our housing loan solutions tailored to meet your
-                  specific requirements
+                  At bsecure, our mission is to empower businesses of all sizes
+                  to achieve their growth potential through reliable and
+                  accessible business loan solutions at competitive rates. With
+                  free consultations and a quick, transparent, and
+                  straightforward application process, we aim to facilitate
+                  2,000 business loans annually, helping entrepreneurs and
+                  companies confidently drive their success.
                 </div>
               </div>
             </div>
