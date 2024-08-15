@@ -3,8 +3,7 @@ import { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import Form from "react-bootstrap/Form";
-import "react-phone-number-input/style.css";
-import PhoneInput from "react-phone-number-input";
+
 function Hero() {
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
@@ -127,11 +126,7 @@ function Hero() {
               controlId="exampleForm.ControlTextarea1"
             >
               <Form.Label>Phone Number</Form.Label>
-              <PhoneInput
-                defaultCountry="IN"
-                value={value}
-                onChange={setValue}
-              />
+             
             </Form.Group>
             <Form.Group>
               <Form.Label>Products Enquiry</Form.Label>

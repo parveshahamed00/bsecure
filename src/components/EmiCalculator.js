@@ -1,7 +1,7 @@
 import { useState } from "react";
-import Button from "react-bootstrap/Button";
+// import Button from "react-bootstrap/Button";
 import Offcanvas from "react-bootstrap/Offcanvas";
-import Form from "react-bootstrap/Form";
+// import Form from "react-bootstrap/Form";
 import { PieChart, Pie, Cell, Legend, Tooltip } from "recharts";
 function EmiCalculator() {
   const [show, setShow] = useState(false);
@@ -67,7 +67,7 @@ function EmiCalculator() {
 
   return (
     <>
-      <a onClick={handleShow}>
+      <a  onClick={handleShow}>
         EMI <i class="bi bi-calculator-fill"></i>
       </a>
 
